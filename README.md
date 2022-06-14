@@ -1,2 +1,3 @@
 # RamenBlog
-Creating a blog website from scratch
+
+Creating a ramen blog website that rates different japanese restaurants and their foods.
