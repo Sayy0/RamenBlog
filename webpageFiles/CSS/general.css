@@ -9,7 +9,7 @@
     src: url(./fonts/ClarksonScript-Regular.otf);
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
     font-family: 'Noto Serif', sans-serif;
@@ -51,7 +51,54 @@ body {
 }
 
 .homeRecents h2{
-    font-size: 25px;
-    font-weight: bold;
-    padding: 10px 20px;
+    font-size: 30px;
+    font-family: 'Noto Serif Display', 'Noto Serif', sans-serif;
+    font-weight: 600;
+    padding: 40px 60px;
+}
+
+.homeCarousel{
+    overflow: hidden;
+}
+
+.homeCarousel img{
+    filter: brightness(50%);
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 50%;
+}
+
+.homeRecents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.lastRecent{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recentsGrid{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.topicBig{
+    height: 650px;
+    width: 60%;
+}
+
+.topicRegular{
+    height: 320px;
+    width: 25%;
+}
+
+.topicItem{
+    background-color: black;
 }
