@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.homeIcon{
+    float: left;
+}
+
+ul.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #E3E3DC;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding : 10px 10px;
+    display: block;
+    text-align: center;
+    color: #323232;
+}
+
+.navbar a:hover{
+    background-color: #A1A19C;
+}
+
+.darkModeToggle{
+    padding: 10px 10px;
+    float: right;
+}
