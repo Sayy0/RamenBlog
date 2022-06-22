@@ -42,14 +42,39 @@
 .topicBig{
     height: 650px;
     width: 1200px;
+    max-width: 1200px;
     min-width: 1200px;
     margin-bottom: 100px;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 50% 50%;
+    align-content: end;
 }
 
 .topicBig img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
+    object-position: 50% 50%;
+    grid-row: 1 / 3;
+}
+
+.topicBigText{
+    padding: 20px;
+    grid-row: 2 / 3;
+}
+
+.topicBigTitle{
+    font-family: "Noto Serif Display", "Noto Serif", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.topicBigDesc{
+    font-family: "Noto Serif Display", "Noto Serif", sans-serif;
+    font-weight: 350;
+    font-size: 16px;
 }
 
 .topicRegular{
