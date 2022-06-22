@@ -1,0 +1,55 @@
+.homeRecents h2{
+    font-size: 30px;
+    font-family: 'Noto Serif Display', 'Noto Serif', sans-serif;
+    font-weight: 600;
+    padding: 40px 60px;
+}
+
+.homeCarousel{
+    overflow: hidden;
+}
+
+.homeCarousel img{
+    filter: brightness(50%);
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 50%;
+}
+
+.homeRecents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lastRecent{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recentsGrid{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.topicBig{
+    height: 650px;
+    width: 1200px;
+    margin-bottom: 100px;
+}
+
+.topicRegular{
+    height: 440px;
+    width: 420px;
+    margin-bottom: 100px;
+}
+
+.topicItem{
+    background-color: black;
+}
