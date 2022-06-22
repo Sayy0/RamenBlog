@@ -12,6 +12,7 @@
 .homeCarousel img{
     filter: brightness(50%);
     height: 30vh;
+    max-height: 900px;
     width: 100%;
     object-fit: cover;
     object-position: 0% 50%;
@@ -41,7 +42,14 @@
 .topicBig{
     height: 650px;
     width: 1200px;
+    min-width: 1200px;
     margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.topicBig img{
+    width: 100%;
+    object-fit: cover;
 }
 
 .topicRegular{
