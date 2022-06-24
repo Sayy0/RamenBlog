@@ -69,6 +69,7 @@
     font-family: "Noto Serif Display", "Noto Serif", sans-serif;
     font-weight: 600;
     font-size: 24px;
+    padding: 5px 0;
 }
 
 .topicDate{
@@ -76,12 +77,14 @@
     font-family: "Noto Serif Display", "Noto Serif", sans-serif;
     font-weight: 300;
     font-size: 13px;
+    padding: 5px 0;
 }
 
 .topicBigDesc{
     font-family: "Noto Serif Display", "Noto Serif", sans-serif;
     font-weight: 350;
     font-size: 16px;
+    padding: 5px 0;
 }
 
 .topicRegular{
