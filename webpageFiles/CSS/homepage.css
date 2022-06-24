@@ -71,6 +71,13 @@
     font-size: 24px;
 }
 
+.topicDate{
+    display: block;
+    font-family: "Noto Serif Display", "Noto Serif", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+
 .topicBigDesc{
     font-family: "Noto Serif Display", "Noto Serif", sans-serif;
     font-weight: 350;
