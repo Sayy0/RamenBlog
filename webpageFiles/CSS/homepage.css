@@ -80,6 +80,11 @@
     padding: 5px 0;
 }
 
+.topicTag{
+    font-size: 12px;
+    padding: 5px 0;
+}
+
 .topicBigDesc{
     font-family: "Noto Serif Display", "Noto Serif", sans-serif;
     font-weight: 350;
@@ -87,9 +92,11 @@
     padding: 5px 0;
 }
 
-.topicTag{
-    font-size: 12px;
-    padding: 5px 0;
+.topicReadMore{
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    color: #323232;
 }
 
 .topicRegular{
