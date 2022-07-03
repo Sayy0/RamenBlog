@@ -34,6 +34,11 @@ body {
     color: #323232;
 }
 
+.navbar a:hover{
+	font-weight: bold;
+	color : #3A3328;
+}
+
 .logo{
     font-family: clarkson;
     font-size: 30px;
