@@ -70,9 +70,15 @@
     font-weight: 600;
     font-size: 24px;
     padding: 5px 0;
+	text-decoration: none;
+	color: #000000;
 }
 
-.topicDate{
+.topicBigTitle:hover{
+	color: #DA6060;
+}
+
+.topicBigDate{
     display: block;
     font-family: "Noto Serif Display", "Noto Serif", sans-serif;
     font-weight: 300;
@@ -80,7 +86,7 @@
     padding: 5px 0;
 }
 
-.topicTag{
+.topicBigTag{
     font-size: 12px;
     padding: 5px 0;
 }
@@ -132,7 +138,13 @@
 }
 
 .topicTitle{
+	color: #000000;
+	text-decoration: none;
 	text-align: center;
+}
+
+.topicTitle:hover{
+	color: #DA6060;
 }
 
 .topicTag{
