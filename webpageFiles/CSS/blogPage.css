@@ -1,0 +1,56 @@
+.blogPost{
+	text-align: center;
+	margin: 0 auto;
+	width: 75%;
+}
+
+.mainImg{
+	object-fit: cover;
+	width: 100%;
+}
+
+.blogInfo{
+	text-align: left;
+	width: 70%;
+}
+
+.blogTitle{
+	display: block;
+	font-family: "Noto Serif Display", "Noto Serif", sans-serif;
+	font-size: 36px;
+}
+
+.blogDate{
+	font-size: 12px;
+}
+
+.seperator{
+	margin: 0 10px;
+}
+
+.blogAuthor{
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+.blogParagraph{
+	margin: 20px 0;
+}
+
+.otherPosts{
+	text-align: center;
+	margin: 0 auto;
+	width: 75%;
+}
+
+.otherPostsText{
+	font-family: "Noto Serif Display", "Noto Serif", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.otherPostsGrid{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
