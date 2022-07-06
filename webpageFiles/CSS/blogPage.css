@@ -18,6 +18,8 @@
 	display: block;
 	font-family: "Noto Serif Display", "Noto Serif", sans-serif;
 	font-size: 36px;
+	font-weight: 500;
+	margin-top: 10px;
 }
 
 .blogDate{
@@ -34,12 +36,14 @@
 }
 
 .blogParagraph{
+	text-align: left;
 	margin: 20px 0;
 }
 
 .otherPosts{
 	text-align: center;
 	margin: 0 auto;
+	margin-top: 100px;
 	width: 75%;
 }
 
@@ -53,4 +57,5 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	margin: 50px 0;
 }
