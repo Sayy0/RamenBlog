@@ -65,3 +65,7 @@
 	text-decoration: none;
 	color: #000000;
 }
+
+.cuisineTitle:hover{
+	color: #DA6060;
+}
